@@ -1,10 +1,8 @@
-package com.amangoes.product_service.controller;
+package com.amangoes.product.controller;
 
-import com.amangoes.product_service.dto.ProductRequest;
-import com.amangoes.product_service.dto.ProductResponse;
-import com.amangoes.product_service.model.Product;
-import com.amangoes.product_service.service.ProductService;
-import lombok.AllArgsConstructor;
+import com.amangoes.product.dto.ProductRequest;
+import com.amangoes.product.dto.ProductResponse;
+import com.amangoes.product.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

@@ -1,9 +1,9 @@
-package com.amangoes.product_service.service;
+package com.amangoes.product.service;
 
-import com.amangoes.product_service.dto.ProductRequest;
-import com.amangoes.product_service.dto.ProductResponse;
-import com.amangoes.product_service.model.Product;
-import com.amangoes.product_service.repository.ProductRepository;
+import com.amangoes.product.dto.ProductRequest;
+import com.amangoes.product.dto.ProductResponse;
+import com.amangoes.product.model.Product;
+import com.amangoes.product.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

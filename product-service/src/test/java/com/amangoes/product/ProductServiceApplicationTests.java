@@ -1,4 +1,4 @@
-package com.amangoes.product_service;
+package com.amangoes.product;
 
 import io.restassured.RestAssured;
 import org.hamcrest.Matchers;
@@ -8,7 +8,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;
 import org.testcontainers.containers.MongoDBContainer;
-import org.testcontainers.shaded.org.bouncycastle.pqc.crypto.rainbow.RainbowSigner;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class ProductServiceApplicationTests {

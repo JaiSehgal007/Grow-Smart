@@ -1,4 +1,4 @@
-package com.amangoes.product_service.model;
+package com.amangoes.product.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

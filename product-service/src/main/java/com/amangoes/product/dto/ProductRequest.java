@@ -1,4 +1,4 @@
-package com.amangoes.product_service.dto;
+package com.amangoes.product.dto;
 
 import java.math.BigDecimal;
 
