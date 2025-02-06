@@ -41,7 +41,7 @@ class OrderServiceApplicationTests {
                 {
                      "skuCode": "potato_grower",
                      "price": 1000,
-                     "quantity": 15
+                     "quantity": 1
                 }
                 """;
 
