@@ -26,14 +26,14 @@ public class NotificationService {
             messageHelper.setTo(orderPlacedEvent.getEmail().toString());
             messageHelper.setSubject("Your Order Number %s has been placed".formatted(orderPlacedEvent.getOrderNumber()));
             messageHelper.setText(String.format("""
-                    Hi
+                    Hi %s,%s
                     
                     Your order with order number %s has been placed successfully.
                     
                     Best Regards
                     Amangoes Team
                     """,
-                    orderPlacedEvent.getOrderNumber()));
+                    orderPlacedEvent.getFirstName(),orderPlacedEvent.getLastName(),orderPlacedEvent.getOrderNumber()));
         };
 
         try {
